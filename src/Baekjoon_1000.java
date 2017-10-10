@@ -8,5 +8,6 @@ public class Baekjoon_1000 {
         int b = input.nextInt();
         
         System.out.println(a+b);
+        input.close();
     }
 }

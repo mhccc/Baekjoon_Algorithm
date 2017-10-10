@@ -8,13 +8,13 @@ public class Baekjoon_10828 {
 	
 	public static void main(String[] args) {
 		try {
-			new Baekjoon_10828().handler();
+			new Baekjoon_10828().run();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-	public void handler() throws IOException {
+	public void run() throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int cn = Integer.parseInt(br.readLine());
 		String[] cmd;
